@@ -1,0 +1,57 @@
+.joinSection {
+    margin: 80px 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    margin: 10px 0 0px;
+}
+
+.subTitle {
+    color: rgb(0, 180, 180);
+    font-weight: 400;
+}
+
+.joinSection {
+    display: flex;
+}
+
+.joinImgContainer {
+    max-width: 600px;
+}
+
+.joinImg {
+    width: 100%;
+}
+
+.joinInfo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.info {
+    width: 80%;
+    margin-left: 40px;
+}
+
+.btn {
+    color: white;
+    height: 50px;
+}
+
+@media (max-width: 1100px) {
+    .joinImgContainer {
+        display: none;
+    }
+    .info {
+        text-align: center;
+        width: 90%;
+    }
+}

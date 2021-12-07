@@ -1,0 +1,46 @@
+.workSection {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+    margin: 10px 0 20px;
+}
+
+.subTitle {
+    color: rgb(0, 180, 180);
+    font-weight: 400;
+}
+
+.works {
+    display: flex;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work {
+    margin: 10px;
+    width: 350px;
+}
+
+.work h3 {
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 15px;
+}
+
+.work p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.workImg {
+    width: 60%;
+}
